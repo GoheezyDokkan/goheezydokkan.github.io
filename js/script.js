@@ -1,7 +1,7 @@
 var source = "audio/music.mp3"
 var audio = document.createElement("audio");
 audio.loop = true;
-audio.autoplay = true;
+// audio.autoplay = true;
 audio.load();
 audio.addEventListener("load", function() {
   audio.play();
